@@ -9,7 +9,7 @@ from skimage.morphology import closing, square
 from skimage.color import label2rgb
 
 
-image = data.coins()[50:-50, 50:-50]
+image = data.coins()[10:-80, 10:-80]
 
 # apply threshold
 thresh = threshold_otsu(image)
